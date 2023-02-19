@@ -53,12 +53,13 @@ export const Navbar = () => {
             
         </div>
     </div>
-    <div className='bg-blue-900 text-white grid grid-cols-2 grid-rows-7 relative h-auto'>
-        <div className='bg-red-700 col-span-2 h-1'></div>
-        <h2 className='row-start-2 text-xl'>Executive Chef Leticia Quehl</h2>
+    <div className='bg-blue-900 text-white grid grid-cols-2 grid-rows-7 h-auto relative'>
+        <div className='bg-red-700 col-span-2 h-1 mb-5'></div>
+        <h2 className='row-start-2 text-xl px-4'>Executive Chef Leticia Quehl</h2>
         <p className='absolute right-1 top-1/4 menuicon md:hidden'><CgMenuGridO onClick={showMenu}/></p>
             {hidden ? <NavbarMenu hidden={true}/> : <NavbarMenu hidden={false} /> }
-        <div className='row-start-7 bg-red-700 col-span-2 h-1'></div>
+        <div className='row-start-7 bg-red-700 col-span-2 h-0.5'></div>
+        <div className='py-5 col-span-2'></div>
     </div>
         
     </div>

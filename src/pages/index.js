@@ -91,12 +91,12 @@ export default function Home() {
           />
         </div>
         <p className="quote row-start-2 col-start-2 col-span-3 row-span-2">
-        "This is the place for both sweet and savory crepes, which are absolutely delicious. 
+        This is the place for both sweet and savory crepes, which are absolutely delicious. 
         The striking flavors will take those of you who have visited France back to the shores of 
         Brittany and the arrondissements of the City of Light. The strains of French love songs waft 
         through the air to enhance the ambiance. . . a unique dining experience that when the food arrives 
         will calm the culinary beast in even the hungriest, most finicky patron 
-        — an experience to be savored and lingered over." - David Cohen, Food Critic
+        — an experience to be savored and lingered over. - David Cohen, Food Critic
         </p>
         <div className=" flex justify-center grow-0 shrink col-start-5 col-span-2 row-start-1 row-span-2">
           <Image
